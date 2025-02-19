@@ -142,21 +142,21 @@ app.put('/youtubers/:id', (req, res) =>{
 let db = new Map();
 
 let youtuber1 = {
-    channelTitle: "십오야",
-    sub: "594만명",
-    videoNum: "993개"
+    channelTitle : "소수몽키",
+    sub : "83만명",
+    videoNum : "1100개"
 }
-
+    
 let youtuber2 = {
-    channelTitle: "침착맨",
-    sub: "272만명",
-    videoNum: "6.6천개"
+    channelTitle : "미과장",
+    sub : "8.32만명",
+    videoNum : "19개"
 }
-
+    
 let youtuber3 = {
-    channelTitle: "테오",
-    sub: "54.8만명",
-    videoNum: "726개"
+    channelTitle : "곽튜브",
+    sub : "206만명",
+    videoNum : "371개"
 }
 
 let idx = 1;
